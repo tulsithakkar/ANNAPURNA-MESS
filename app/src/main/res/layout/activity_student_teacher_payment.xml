@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgfinal"
+    tools:context=".Users.student_teacher_payment">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="362dp"
+        android:layout_height="730dp"
+        android:layout_marginTop="18dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="45dp"
+        android:background="@color/white"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp"
+        android:textStyle="bold|normal|italic"
+        app:cardUseCompatPadding="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="2">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="171dp"
+                android:layout_height="120dp"
+                android:src="@drawable/logo"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:id="@+id/txtview"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:background="@color/black"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:paddingRight="15dp"
+                android:text="Payment"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold|normal|italic" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Select day for which you want to pay!"
+                android:textStyle="bold|normal|italic"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/tvspinner1"
+                android:textStyle="bold|normal|italic"
+                android:textSize="15dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Select Time for which you want to pay!"
+                android:textStyle="bold|normal|italic"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/tvspinner"
+                android:textStyle="bold|normal|italic"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Amount: "
+                    android:textStyle="bold|normal|italic"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp" />
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/tvamount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Amount"
+                    android:textStyle="bold|normal|italic"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp" />
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:orientation="horizontal"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic|normal"
+                android:layout_marginLeft="5dp">
+                <RadioButton
+                    android:id="@+id/rbtcash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cash"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold|italic|normal" />
+                <RadioButton
+                    android:id="@+id/rbtnUPI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UPI"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold|italic|normal" />
+            </RadioGroup>
+            <EditText
+                android:layout_marginLeft="10dp"
+                android:id="@+id/tvrefid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Referenceid"
+                android:textStyle="bold|normal|italic"
+                android:textSize="20dp"
+                android:textColor="@color/black" />
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pay"
+                android:textSize="20dp"
+                android:id="@+id/btnpay"
+                android:textStyle="bold|italic|normal"
+                android:backgroundTint="@color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/number"
+                android:visibility="invisible"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name1"
+                android:visibility="invisible"
+                />
+
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

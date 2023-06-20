@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+    <item
+        android:id="@+id/nav_member"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Members">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_hostelmember"
+                android:icon="@drawable/baseline_person_24"
+                android:title="Hostel member"/>
+            <item
+                android:id="@+id/nav_studentmember"
+                android:icon="@drawable/baseline_person_24"
+                android:title="Student member"/>
+            <item
+                android:id="@+id/nav_teachermember"
+                android:icon="@drawable/baseline_person_24"
+                android:title="Teacher member"/>
+
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/nav_payment"
+        android:icon="@drawable/baseline_payment_24"
+        android:title="Payments">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_hostelpayment"
+                android:icon="@drawable/baseline_payment_24"
+                android:title="Hostel member payments"/>
+            <item
+                android:id="@+id/nav_STpayment"
+                android:icon="@drawable/baseline_payment_24"
+                android:title="Student and teacher payments"/>
+
+        </menu>
+
+
+
+    </item>
+
+
+
+        <item
+            android:id="@+id/nav_penpayment"
+            android:icon="@drawable/baseline_pending_24"
+            android:title="Pending hostel Payments"/>
+    <item
+        android:id="@+id/nav_rf1"
+        android:icon="@drawable/baseline_feedback_24"
+        android:title="Rating/Feedback"/>
+
+
+        <item
+            android:id="@+id/nav_repo"
+            android:icon="@drawable/baseline_report_24"
+            android:title="Reports"/>
+
+    <item
+        android:id="@+id/nav_logout1"
+        android:icon="@drawable/baseline_logout_24"
+        android:title="Logout"/>
+    </group>
+</menu>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:background="#FFFDE7"
+    android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="9dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/user_name"
+    android:paddingTop="8dp"
+    android:textSize="25dp"
+        android:layout_marginLeft="9dp"
+        android:text="Annapurna Mess"
+    android:textColor="@color/black"
+    android:textStyle="bold|italic" />
+
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="30dp"
+    android:background="@color/underline"/>
+
+
+</LinearLayout>

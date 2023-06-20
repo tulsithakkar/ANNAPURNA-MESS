@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE">+</uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MessManagmentSystem"
+        tools:targetApi="31">
+        <activity
+            android:name=".Admin.Admin_pendingHpaymentView"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Admin_Reports"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Student_teacher_token"
+            android:exported="false" />
+        <activity
+            android:name=".Users.User_MenuView"
+            android:exported="false" />
+        <activity
+            android:name=".Users.hostel_payment_hist"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Admin_Hostelpayment_view"
+            android:exported="false" />
+        <activity
+            android:name=".Users.hostel_payment"
+            android:exported="false" />
+
+        <activity
+            android:name=".Admin.Admin_userPayment_view"
+            android:exported="false" />
+        <activity
+            android:name=".Users.user_payment_hist"
+            android:exported="false" />
+        <activity
+            android:name=".Users.student_teacher_payment"
+            android:exported="false" />
+
+        <activity
+            android:name=".Admin.memberlist"
+            android:exported="false" />
+        <activity
+            android:name=".reviewlist"
+            android:exported="false" />
+        <activity
+            android:name=".Users.user_rating_feedback"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Contactus"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.menulist"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Admin_menuupdate"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminHome1"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".register"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Login"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

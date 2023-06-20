@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "882395665547",
+    "project_id": "annapurnamess-5080d",
+    "storage_bucket": "annapurnamess-5080d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882395665547:android:d7e220651a8af00601f08e",
+        "android_client_info": {
+          "package_name": "com.example.messmanagmentsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882395665547-38todg0unteccvs582ki2dhclf6j0pi1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-jvLHdhBet1iXP99v64V7N9P6s9yNhgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882395665547-38todg0unteccvs582ki2dhclf6j0pi1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
